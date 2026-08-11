@@ -4,7 +4,7 @@
 
 The robotic arm shown below consists of four motors (4-DOF).
 
-![4-DOF Robotic Arm](images/robotic-arm.png)
+![4-DOF Robotic Arm](robotic-arm.png)
 
 The objective is to derive the **Forward Kinematics** equations of the robotic arm in order to determine the position of the end effector in the Cartesian coordinate system:
 
