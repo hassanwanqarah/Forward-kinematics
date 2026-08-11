@@ -172,3 +172,11 @@ P = [X,\ Y,\ Z]^T
 $$
 
 These equations can be used to determine the position of the robotic arm's end effector for different joint configurations.
+
+## Prepared by:
+
+Hassan Wanqarah
+
+Mechanical Engineering Student
+
+Umm Al-Qura University
