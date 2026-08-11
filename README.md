@@ -56,6 +56,8 @@ $$
 
 ### X Coordinate
 
+The X coordinate is obtained by projecting the horizontal distance onto the X-axis:
+
 $$
 X = r\cos(\theta_1)
 $$
@@ -76,6 +78,8 @@ $$
 
 ### Y Coordinate
 
+The Y coordinate is obtained by projecting the horizontal distance onto the Y-axis:
+
 $$
 Y = r\sin(\theta_1)
 $$
@@ -84,19 +88,34 @@ Therefore:
 
 $$
 Y =
-[
-100\cos(\theta_2)
+100\cos(\theta_2)\sin(\theta_1)
 +
-65\cos(\theta_2+\theta_3)
+65\cos(\theta_2+\theta_3)\sin(\theta_1)
 +
-15\cos(\theta_2+\theta_3+\theta_4)
-]
-\sin(\theta_1)
+15\cos(\theta_2+\theta_3+\theta_4)\sin(\theta_1)
 $$
 
 ### Z Coordinate
 
-The vertical position is calculated by adding the assumed base height:
+The Z coordinate is obtained from the vertical components of the three links and the assumed base height:
+
+$$
+Z = H
++
+100\sin(\theta_2)
++
+65\sin(\theta_2+\theta_3)
++
+15\sin(\theta_2+\theta_3+\theta_4)
+$$
+
+Using the assumed base height:
+
+$$
+H = 50\ mm
+$$
+
+Therefore:
 
 $$
 Z =
